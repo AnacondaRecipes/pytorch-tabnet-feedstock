@@ -38,15 +38,16 @@ test:
 
 about:
   home: https://github.com/dreamquark-ai/tabnet
-  summary: PyTorch implementation of TabNet
   license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: PyTorch implementation of TabNet
   description: |
     This is a pyTorch implementation of Tabnet (Arik, S. O., & Pfister, T. (2019). 
     TabNet: Attentive Interpretable Tabular Learning. arXiv preprint arXiv:1908.07442.) 
     https://arxiv.org/pdf/1908.07442.pdf.
-  license_file: LICENSE
   dev_url: https://github.com/dreamquark-ai/tabnet
-  doc_url: https://github.com/dreamquark-ai/tabnet
+  doc_url: https://dreamquark-ai.github.io/tabnet/
 
 extra:
   recipe-maintainers:
