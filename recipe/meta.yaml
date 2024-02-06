@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytorch_tabnet-{{ version }}.tar.gz
-  sha256: 18887b993a8bf86ec05a576b5cf93f09e08b778cd9f418c5b254b6566df673a5
+  url: https://github.com/dreamquark-ai/tabnet/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 0703d0298bf605dae289515023859428017fe86e4663de9068a99f06b9802c94
 
 build:
   number: 0
