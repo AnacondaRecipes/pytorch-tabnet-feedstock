@@ -29,12 +29,16 @@ requirements:
     - tqdm >=4.36
 
 test:
+  source_files:
+    - tests
   imports:
     - pytorch_tabnet
   commands:
     - pip check
+    - pytest tests -v
   requires:
     - pip
+    - pytest
 
 about:
   home: https://github.com/dreamquark-ai/tabnet
